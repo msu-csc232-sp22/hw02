@@ -1,20 +1,17 @@
 /**
  * CSC232 - Data Structures
- * Missouri State University, Spring 2020
+ * Missouri State University, Spring 2022
  *
  * @file    Main.cpp
  * @author  Jim Daehn <jdaehn@missouristate.edu>
- * @brief   Entry point of Homework03 target.
+ * @brief   Entry point of hw02 target.
  */
 
-#include "magic_square.h"
+#include "csc232.h"
 
 int main()
 {
     cout << "Hello, Main!" << endl;
-    int order{ 13 };
-    csc232::TwoDimArray twoDimArray;
-    csc232::CreateMagicSquare( twoDimArray, order );
-    csc232::PrintTable( order, order, twoDimArray );
+
     return EXIT_SUCCESS;
 }

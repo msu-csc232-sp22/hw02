@@ -1,10 +1,10 @@
 /**
  * CSC232 - Data Structures
- * Missouri State University, Spring 2020
+ * Missouri State University, Spring 2022
  *
  * @file    Demo.cpp
  * @author  Jim Daehn <jdaehn@missouristate.edu>
- * @brief   Entry point of Homework03Demo target.
+ * @brief   Entry point of hw02-demo target.
  */
 
 #include <cstdlib>
