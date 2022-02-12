@@ -1,9 +1,17 @@
-# HW02 - Arrays of Points
+# HW02 - Classes and Parameters
 
+This assignment provides the student with the opportunity to utilize various parameter and return passing idioms while furthering their understanding of C++ Classes.
 
 ## Background
 
+To put theory to practice, in this assignment we seek to model a "point" located in a 2-dimensional Cartesian plane. We shall do this by developing a `Point` class. This new class is a data type to store and manipulate the location of a single point on a plane. The `Point` class has the following member functions:
 
+- There is a constructor to initialize a point. The constructor's parameters use default arguments.
+- There is a member function to shift a point by a given amount along the _x_ and _y_ axes.
+- There is a member function to rotate a point by 90° in a clockwise direction around the origin.
+- There are two constant member functions that allow us to retrieve the current _x_ and _y_ coordinates of a `Point`.
+
+These functions are simple, yet they form the basis for an actual data type that is used in drawing programs and other graphics applications.
 
 ## Objective
 
