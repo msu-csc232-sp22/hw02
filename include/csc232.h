@@ -5,8 +5,8 @@
  * @file    csc232.h
  * @author  Jim Daehn <jdaehn@missouristate.edu>
  * @brief   Macros, libraries and definitions for use in csc232 assignments.
- * @version 0.2021.11.21
- * @date    11/21/2021
+ * @version 0.2022.02.12
+ * @date    02/12/2022
  *
  * @copyright Copyright (c) 2021 James R. Daehn
  */
@@ -20,10 +20,14 @@
 #define WORKING_ON_TASK1 FALSE
 #define WORKING_ON_TASK2 FALSE
 #define WORKING_ON_TASK3 FALSE
+#define WORKING_ON_TASK4 FALSE
+#define WORKING_ON_TASK5 FALSE
 
 #define TASK1_COMPLETED FALSE
 #define TASK2_COMPLETED FALSE
 #define TASK3_COMPLETED FALSE
+#define TASK4_COMPLETED FALSE
+#define TASK5_COMPLETED FALSE
 
 #include <algorithm>
 #include <cassert>
@@ -48,6 +52,12 @@
 
 #include "expanded_templates.h"
 
+#if TASK1_COMPLETED
+
+#include "point.h"
+
+#endif
+
  /** Common iostream objects */
 using std::cerr;
 using std::cin;
@@ -59,6 +69,7 @@ using std::left;
 using std::right;
 using std::setprecision;
 using std::setw;
+using std::setfill;
 
 /**
  * @brief Common namespace for CSC232 identifiers.
@@ -69,15 +80,35 @@ namespace csc232
 
 #if WORKING_ON_TASK1
 
+    // There is no work to do in this file for TASK1 ... 
+    // You should be working in/on new files: /include/point.h and /src/point.cpp
+    // Please note: The GitHub actions treat these file names in a case-sensitive manner.
+
 #endif // WORKING_ON_TASK1
 
 #if WORKING_ON_TASK2
+
+    // TODO: Define int rotations_needed(Point p) below
 
 #endif // WORKING_ON_TASK2
 
 #if WORKING_ON_TASK3
 
+    // TODO: Define void rotate_to_upper_right(Point& p) below
+
 #endif // WORKING_ON_TASK3
+
+#if WORKING_ON_TASK4
+
+    // TODO: Define double distance(const Point& p1, const Point& p2) below
+
+#endif // WORKING_ON_TASK4
+
+#if WORKING_ON_TASK5
+
+    // TODO: Define Point middle(const Point& p1, const Point& p2) below
+    
+#endif // WORKING_ON_TASK5
 
     // DO NOT Modify anything below this line
 
