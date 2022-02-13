@@ -4,7 +4,7 @@
  *
  * @file    Demo.cpp
  * @author  Jim Daehn <jdaehn@missouristate.edu>
- * @brief   Entry point of hw02-demo target.
+ * @brief   Entry point of demo target.
  */
 
 #include <cstdlib>
