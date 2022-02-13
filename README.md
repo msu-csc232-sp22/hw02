@@ -31,11 +31,11 @@ Below is a UML class diagram for the class you'll implement in Task 1.
 Upon successful completion of this assignment, the student has learned how to
 
 - declare and define a new class given sufficient specifications
-- implement functions that have its parameters 
+- implement functions that have its parameters
   - passed by value
   - passed by reference
   - passed by constant reference
-- implement functions that return values by value 
+- implement functions that return values by value
   
 ## Getting Started
 
@@ -289,7 +289,7 @@ int date_check(int year, int month = 1, int date = 1);
 1. The default argument is specified only once--in the prototype--and not in the function's implementation.
 2. A function with several arguments does not need to specify default arguments for every argument. But if only some of the arguments have defaults, then those arguments must be right-most in the parameter list.
 3. In a function call, arguments with default values may be omitted from the right end of the actual argument list. For example,
- 
+
    ```c++
    int result;
    result = date_check(2000);        // use default arguments for month = 1x and date = 1
